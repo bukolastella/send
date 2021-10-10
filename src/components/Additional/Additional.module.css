@@ -1,0 +1,11 @@
+.AdditionalGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 50px;
+  padding: 0.5rem;
+}
+
+.Title {
+  margin-bottom: 2rem;
+}

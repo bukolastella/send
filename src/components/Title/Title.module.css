@@ -1,0 +1,16 @@
+.Title {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.Title h2 {
+  color: #2b2c2e;
+  margin-bottom: 1rem;
+}
+
+.Title span {
+  color: #919297;
+}

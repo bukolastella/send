@@ -1,0 +1,19 @@
+.LocationInput {
+  background-color: #f3f3f3;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.LocationInput i {
+  margin-right: 0.5rem;
+}
+
+.LocationInput input {
+  padding: 0 0.5rem;
+  background-color: #f3f3f3;
+  outline: none;
+  border: none;
+  width: 100%;
+}

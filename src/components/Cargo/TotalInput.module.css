@@ -1,0 +1,33 @@
+.Total {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 60px;
+  padding: 0 1rem 0 0;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+}
+.Total input {
+  width: 100%;
+  height: 100%;
+  margin-right: 0.4rem;
+  outline: none;
+  border: none;
+  padding: 0 0.5rem;
+}
+.Labeltotal {
+  position: absolute;
+  left: 10px;
+  top: -10px;
+  font-weight: 500;
+  z-index: 2;
+  background-color: white;
+  padding: 0 0.3rem;
+  /* transform: translate(14px, -9px) scale(0.75); */
+}
+
+.Total span {
+  color: #a6a7a9;
+}

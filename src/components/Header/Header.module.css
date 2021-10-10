@@ -1,0 +1,77 @@
+.Header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 150px 150px;
+  grid-template-rows: 40px;
+  background-color: #0746a7;
+  gap: 40px;
+  padding: 1rem;
+}
+
+.Logo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 70%;
+  align-self: center;
+  width: 200px;
+  color: white;
+}
+
+.Logo svg {
+  height: 100%;
+  width: 70px;
+}
+
+.Logo span {
+  font-weight: 600;
+  margin-left: 0.3rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.2rem;
+  align-items: flex-end;
+  justify-content: center;
+}
+.Search {
+  padding: 0.5rem 1.1rem;
+  background-color: #3a6bb8;
+  width: 500px;
+  height: 80%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+}
+.Search input {
+  border: none;
+  background-color: #3a6bb8;
+  padding: 0.3rem 0.5rem;
+  width: 100%;
+  margin-right: 0.5rem;
+  outline: none;
+}
+
+.Search input::placeholder {
+  color: #99b9e2;
+}
+.Search i {
+  color: #d4e2f7;
+}
+
+.Request {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
+
+.Book {
+  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: #5cc684;
+  color: white;
+}

@@ -1,0 +1,25 @@
+.ServiceCards {
+  background-color: transparent;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  color: #82858e;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 100%;
+}
+.imgBlock {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 50%;
+  height: 100%;
+}
+.ServiceCards img {
+  width: 100%;
+  height: 100%;
+}

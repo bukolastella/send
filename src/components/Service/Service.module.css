@@ -1,0 +1,12 @@
+.ServiceRows {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Service h3 {
+  margin-bottom: 2rem;
+}

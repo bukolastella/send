@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header/Header";
+import Title from "./components/Title/Title";
+import Card from "./components/Card/Card";
+import Service from "./components/Service/Service";
+import Address from "./components/Address/Address";
+import Cargo from "./components/Cargo/Cargo";
+import Additional from "./components/Additional/Additional";
+import classes from "./App.module.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <div className={classes.appgrid}>
+        <div className={classes.arrow}>
+          <i class="fas fa-arrow-left"></i>
+        </div>
+        <div>
+          <Title />
+          <Card>
+            <Service />
+          </Card>
+          <Card>
+            <Address />
+          </Card>
+          <Card>
+            <Cargo />
+          </Card>
+          <Card>
+            <Additional />
+          </Card>
+        </div>
+      </div>
     </div>
   );
 }

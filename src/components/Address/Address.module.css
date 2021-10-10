@@ -1,0 +1,67 @@
+.ImportExport {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
+  text-transform: capitalize;
+  color: #909195;
+  width: fit-content;
+  height: 100%;
+}
+.ImportExport span {
+  font-weight: 500;
+  width: 100%;
+  justify-self: center;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ImportExport span:nth-child(1) {
+  border-right: 1px solid #eaeaea;
+}
+.Col1 {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr;
+  gap: 50px;
+  grid-template-rows: 40px;
+  margin-bottom: 2rem;
+}
+.Col2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  grid-template-rows: 40px;
+  color: #2f2f2f;
+  margin-bottom: 2rem;
+}
+.info {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.form {
+  width: 100%;
+}
+.select {
+  width: 100%;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  color: #2f2f2f;
+  font-size: 1rem;
+}
+.ready {
+  margin-left: 1rem;
+  cursor: default;
+}

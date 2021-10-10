@@ -1,0 +1,10 @@
+.appgrid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 50px;
+  padding: 1rem 5rem;
+}
+.arrow i {
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
