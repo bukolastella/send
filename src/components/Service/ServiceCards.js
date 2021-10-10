@@ -2,10 +2,14 @@ import React from "react";
 import classes from "./ServiceCards.module.css";
 
 const ServiceCards = (props) => {
+  const clickHandler = () => {
+    props.changeState(props.name || props.col1);
+  };
   return (
     <div
       className={classes.ServiceCards}
       style={{ backgroundColor: props.active ? "#0746a7" : null }}
+      onClick={clickHandler}
     >
       <span style={{ color: props.active ? "white" : null }}>
         {props.double ? (
@@ -18,7 +22,11 @@ const ServiceCards = (props) => {
         )}
       </span>
       <div className={classes.imgBlock}>
-        <img src={props.img} alt="plane" />
+        {props.active ? (
+          <img src={props.activeImg} alt="plane" />
+        ) : (
+          <img src={props.img} alt="plane" />
+        )}
       </div>
     </div>
   );

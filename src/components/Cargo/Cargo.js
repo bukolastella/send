@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import classes from "./Cargo.module.css";
 import Switch from "./Switch";
 import TotalInput from "./TotalInput";
 
 const Cargo = () => {
+  const [state, setstate] = useState("total");
+  const totalHandler = () => {
+    setstate("total");
+  };
+  const packageHandler = () => {
+    setstate("package");
+  };
   return (
     <div>
       <div className={classes.Header}>
@@ -16,8 +23,18 @@ const Cargo = () => {
         </div>
       </div>
       <div className={classes.flexbox}>
-        <div>Total Dimensions</div>
-        <div>Package Details</div>
+        <div
+          onClick={totalHandler}
+          className={state === "total" && classes.active}
+        >
+          Total Dimensions
+        </div>
+        <div
+          onClick={packageHandler}
+          className={state === "package" && classes.active}
+        >
+          Package Details
+        </div>
       </div>
       <div className={classes.flexTotal}>
         <TotalInput label="Total Volume" unit="cdm" />

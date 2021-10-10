@@ -11,7 +11,7 @@ const Header = () => {
       </div>
       <div className={classes.Search}>
         <input type="text" placeholder="Search" />
-        <i class="fas fa-search"></i>
+        <i className="fas fa-search"></i>
       </div>
       <div className={classes.Request}>Request Quote</div>
       <div className={classes.Book}>Book Shipment</div>
